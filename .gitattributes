@@ -1,0 +1,10 @@
+# Preserve LF line endings on Unix scripts even if checked out on Windows
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+gradlew text eol=lf
+*.sh text eol=lf
+*.png binary
+*.jar binary
+*.apex binary
+*.ttf binary
